@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175746599490",
+    "project_id": "ecofood-f2314",
+    "storage_bucket": "ecofood-f2314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175746599490:android:55c6143ceb2b4a40443bdb",
+        "android_client_info": {
+          "package_name": "com.example.ecofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175746599490-tn5eiqrdfdvjrjhir6pc7i47atcus6h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk89ifcTfC7prp1D1ueRvp7W-Ewll2kww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175746599490-tn5eiqrdfdvjrjhir6pc7i47atcus6h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
