@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
 class ProductAdapter(private var productList:MutableList<Product>) : RecyclerView.Adapter<ProductAdapter.ProductViewHolder>(){
     override fun onCreateViewHolder(
@@ -19,7 +20,11 @@ class ProductAdapter(private var productList:MutableList<Product>) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        holder.productImage.setImageResource(productList[position].img)
+        Picasso.get().load("https://firebasestorage.googleapis.com/v0/b/ecofood-f2314.appspot.com/o/1.png?alt=media&token=a8a33dc7-be2e-4cb3-8ce3-c18772fcdc9b")
+            .into(holder.productImage)
+
+
+//        holder.productImage.setImageResource(productList[position].img)
         holder.productTitle.text= productList[position].title
         holder.productPrice.text= productList[position].price
 
