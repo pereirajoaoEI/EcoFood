@@ -2,6 +2,11 @@
 buildscript {
     repositories {
         google()
+        maven {
+            url 'https://maven.google.com'
+        }
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
     }
 
     dependencies {
@@ -9,6 +14,7 @@ buildscript {
     }
 
 }
+
 
 plugins {
     id 'com.android.application' version '7.1.2' apply false

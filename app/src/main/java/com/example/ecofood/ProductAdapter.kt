@@ -20,7 +20,7 @@ class ProductAdapter(private var productList:MutableList<Product>) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        Picasso.get().load("https://firebasestorage.googleapis.com/v0/b/ecofood-f2314.appspot.com/o/1.png?alt=media&token=a8a33dc7-be2e-4cb3-8ce3-c18772fcdc9b")
+        Picasso.get().load(productList[position].img)
             .into(holder.productImage)
 
 
